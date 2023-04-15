@@ -1,0 +1,49 @@
+.navbar {
+	overflow: hidden;
+	background-color: #423030;
+	color: #ffffff; 
+	position: fixed;
+	top: 0; 
+	width: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 100px;
+	text-align: center;
+	height: 50px;
+}
+.navbar a {
+    /*float: left;*/
+    display: inline-block;
+    color: white;
+	text-align: center;
+    padding: 15px 7px;
+    text-decoration: none;
+	
+}
+.navbar a:hover {
+	background: #0ff10c;
+	color: black;
+}
+.main {
+	margin-top: 46px;
+	background-image: url(NightSky.jpg);
+	background-size: 100% 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	height: 700px;	
+}
+.main-text {
+	padding-top: 80px;
+	padding-bottom: 1px;
+}
+h1 {
+	font-size: 60px;
+	margin-bottom: 0;
+}
+h5 {
+	font-weight: 20;
+	font-size: 17px;
+	margin-top: 0;
+}
